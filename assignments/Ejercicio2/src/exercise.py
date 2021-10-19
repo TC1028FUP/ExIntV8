@@ -1,8 +1,7 @@
 # Función que despliega la matriz
 def despliega_matriz(matriz):
-    '''Función que despliega una lista anidada por lista'''
     for lista in matriz:
-        print(lista)
+        print(" ".join(lista))
 
 # Escribe aquí la función que hace falta
 
